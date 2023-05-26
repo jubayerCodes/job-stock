@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Assignment 1",
+        "topic": "Basic HTML & CSS",
+        "marks": 60
+    },
+    {
+        "name": "Assignment 2",
+        "topic": "Advanced HTML & CSS",
+        "marks": 60
+    },
+    {
+        "name": "Assignment 3",
+        "topic": "CSS Framework",
+        "marks": 60
+    },
+    {
+        "name": "Assignment 4",
+        "topic": "Basic Javascript",
+        "marks": 48
+    },
+    {
+        "name": "Assignment 5",
+        "topic": "Javascript DOM",
+        "marks": 60
+    },
+    {
+        "name": "Assignment 6",
+        "topic": "Javascript API",
+        "marks": 60
+    },
+    {
+        "name": "Assignment 7",
+        "topic": "Javascript Debug",
+        "marks": 60
+    },
+    {
+        "name": "Assignment 8",
+        "topic": "Basic React",
+        "marks": 60
+    }
+]

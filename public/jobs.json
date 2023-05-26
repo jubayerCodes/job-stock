@@ -1,0 +1,116 @@
+[
+    {
+        "id": "1",
+        "companyName": "google",
+        "companyLogo": "/companyLogos/google.png",
+        "jobTitle": "IT Analyst",
+        "jobType": "Remote",
+        "jobTime": "Full Time",
+        "location": "Dhaka, Bangladesh",
+        "salary": "50k - 80k",
+        "jobDesc": "We are looking for an IT Analyst to design and implement functional and cost-efficient IT systems. IT Analyst responsibilities include prioritizing user requirements, overseeing system upgrades and researching new tools. In this role, you should be highly analytical and able to understand business needs. Excellent communication skills and problem-solving abilities are essential. If you also have hands-on experience with technical projects, we would like to meet you. Your goal will be to leverage tech solutions to meet organizational needs.",
+        "jobResponsibility": "Communicate with stakeholders to understand their requirements Develop and analyze functional specifications Design efficient IT systems to meet business and technology needs Coordinate developers to build and implement technology solutions Integrate multiple systems and reconcile needs of different teams Gather feedback from end users about system performance Plan and oversee projects (e.g. upgrades, hardware/software installations) Provide advice and technical training Keep abreast of technology trends and developments",
+        "educationalRequirements": "BSc/BA in Computer Science, Engineering or a related field",
+        "experience": "2-3",
+        "contact": {
+            "phone": "01750-00 00 00",
+            "email": "info@gmail.com"
+        },
+        "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
+    },
+    {
+        "id": "2",
+        "companyName": "netflix",
+        "companyLogo": "/companyLogos/netflix.png",
+        "jobTitle": "Senior Product Designer",
+        "jobType": "Remote",
+        "jobTime": "Part Time",
+        "location": "New York, USA",
+        "salary": "100k - 120k",
+        "jobDesc": "We are looking for a Senior Product Manager to direct product development and ensure high return on investment (ROI.) You`ll translate ideas into strategy and features, and follow product development from start to finish. To succeed in this role, you should be a perceptive and creative leader and a reliable problem-solver. If you`re also confident and have a knack for knowing what ideas will and won`t work, we`d like to meet you.",
+        "jobResponsibility": "Develop and implement product strategies consistent with company vision Collect and analyze feedback from customers, stakeholders and other teams to shape requirements, features and Lead product managers and coordinate cross-functional teams Produce and review product requirements documents (PRD) Ensure products and releases are launched correctly and on schedule Make creative Suggest ways to track product use and impact on end users",
+        "educationalRequirements": "BSc/BA in Computer Science, Engineering or a related field",
+        "experience": "3-4",
+        "contact": {
+            "phone": "01750-00 00 00",
+            "email": "info@gmail.com"
+        },
+        "address": "4389 Cameron Road, Rushford, New York, USA"
+    },
+    {
+        "id": "3",
+        "companyName": "tesla",
+        "companyLogo": "/companyLogos/tesla.png",
+        "jobTitle": "Senior Web Developer",
+        "jobType": "Onsite",
+        "jobTime": "Full Time",
+        "location": "New York, USA",
+        "salary": "150k - 170k",
+        "jobDesc": "We are looking for a Senior Web Developer to build and maintain functional web pages and applications. Senior Web Developer responsibilities include leading a team of junior developers, refining website specifications and resolving technical issues. To be successful in this role, you should have extensive experience building web pages from scratch and in-depth knowledge of at least one of the following programming languages: Javascript, Ruby or PHP. Ultimately, you will ensure our web pages are up and running and cover both internal and customer needs.",
+        "jobResponsibility": "Identify user and system requirements for new websites and applications Prioritize software development projects, set timelines and assign tasks to team members Create Write or review code for various applications Run functionality testings and debug code Oversee junior web developers and evaluate their performance Liaise with designers to decide on UI/UX elements (lik graphics and navigation buttons) Ensure our software documentation is up-to-date Collaborate with mobile developers to build mobile-responsive websites",
+        "educationalRequirements": "BSc/BA in Computer Science, Engineering or a related field",
+        "experience": "1-2",
+        "contact": {
+            "phone": "01750-00 00 00",
+            "email": "info@gmail.com"
+        },
+        "address": "1596 Wilmar Farm Road, Beltsville, New York, USA"
+    },
+    {
+        "id": "4",
+        "companyName": "meta",
+        "companyLogo": "/companyLogos/meta.png",
+        "jobTitle": "Software Security Engineer",
+        "jobType": "Remote",
+        "jobTime": "Full Time",
+        "location": "New York, USA",
+        "salary": "100k - 110k",
+        "jobDesc": "We are looking for a skilled Security Engineer to analyze software designs and implementations from a security perspective, and identify and resolve security issues. You will include the appropriate security analysis, defences and countermeasures at each phase of the software development lifecycle, to result in robust and reliable software.",
+        "jobResponsibility": "Implement, test and operate advanced software security techniques in compliance with technical reference architecture Perform on-going security testing and code review to improve software security Troubleshoot and debug issues that arise Provide engineering designs for new software solutions to help mitigate security vulnerabilities Contribute to all levels of the architecture Maintain technical documentation Consult team members on secure coding practices Develop a familiarity with new tools and best practices",
+        "educationalRequirements": "BSc/BA in Computer Science, Engineering or a related field",
+        "experience": "3-4",
+        "contact": {
+            "phone": "01750-00 00 00",
+            "email": "info@gmail.com"
+        },
+        "address": "693 Heritage Lane, Bay Shore, New York, USA"
+    },
+    {
+        "id": "5",
+        "companyName": "twitter",
+        "companyLogo": "/companyLogos/twitter.png",
+        "jobTitle": "Quality Analyst",
+        "jobType": "Onsite",
+        "jobTime": "Part Time",
+        "location": "New York, USA",
+        "salary": "50k - 70k",
+        "jobDesc": "We are looking for a Quality Analyst to join our team and help with testing products to meet our organization’s quality standards. Quality Analyst responsibilities include performing quality tests and validating test cases before products, software and systems are shipped to consumers. Ultimately, you will work with a small team to ensure our products meet our organization’s quality standards.",
+        "jobResponsibility": "Identify and remedy defects within the production process Recommend, and monitor preventative and corrective actions to ensure that quality assurance standards are achieved Compile and analyze statistical data Ensure that user expectations are met during the testing process Draft quality assurance policies and procedures Investigate customer complaints and product issues",
+        "educationalRequirements": "BSc/BA in Computer Science, Engineering or a related field",
+        "experience": "3-4",
+        "contact": {
+            "phone": "01750-00 00 00",
+            "email": "info@gmail.com"
+        },
+        "address": "30 Ohio Ave, Bronx, New York, USA"
+    },
+    {
+        "id": "6",
+        "companyName": "microsoft",
+        "companyLogo": "/companyLogos/microsoft.png",
+        "jobTitle": "Database Administrator",
+        "jobType": "Onsite",
+        "jobTime": "Full Time",
+        "location": "New York, USA",
+        "salary": "80k - 100k",
+        "jobDesc": "A professional Database Administrator (DBA) will keep the database up and running smoothly 24/7. The goal is to provide a seamless flow of information throughout the company, considering both backend data structure and frontend accessibility for end-users.",
+        "jobResponsibility": "Build database systems of high availability and quality depending on each end user’s specialised role Design and implement database in accordance to end users information needs and views Define users and enable data distribution to the right user, in appropriate format and in a manner Use high-speed transaction recovery techniques and backup data Minimise database downtime and manage parameters to provide fast query responses Provide proactive and reactive data management support and training to users Determine, enforce and document database policies, procedures and standards Perform tests and evaluations regularly to ensure data security, privacy and integrity Monitor database performance, implement changes and apply new patches and versions when required",
+        "educationalRequirements": "BSc/BA in Computer Science, Engineering or a related field",
+        "experience": "1-2",
+        "contact": {
+            "phone": "01750-00 00 00",
+            "email": "info@gmail.com"
+        },
+        "address": "8647 Ramblewood St, New York, USA"
+    }
+]

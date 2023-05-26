@@ -1,0 +1,26 @@
+[
+    {
+        "id": "64335304327178a205e52fd0",
+        "categoryName": "Wordpress",
+        "available": 350,
+        "categoryLogo": "/categoryLogos/wordpress.png"
+    },
+    {
+        "id": "643353043da6b1d958b102e5",
+        "categoryName": "React JS",
+        "available": 500,
+        "categoryLogo": "/categoryLogos/react.png"
+    },
+    {
+        "id": "643353047066f2adb9157686",
+        "categoryName": "Graphics Design",
+        "available": 400,
+        "categoryLogo": "/categoryLogos/graphics.png"
+    },
+    {
+        "id": "643353041f5969ae39e7ddd8",
+        "categoryName": "SEO Marketing",
+        "available": 350,
+        "categoryLogo": "/categoryLogos/seo.png"
+    }
+]

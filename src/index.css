@@ -1,0 +1,292 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h2{
+  color: #1A1919;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.gradient {
+  color: linear-gradient(90deg, rgba(126,144,254,1) 0%, rgba(152,115,255,1) 100%);
+}
+
+.section-content{
+  @apply text-center mb-16
+}
+
+.section-title{
+  @apply text-4xl lg:text-5xl font-bold mb-8
+}
+
+.section-desc{
+  @apply text-[#757575;]
+}
+
+.header-btn, .hero-btn, .job-details-btn, .showAll-btn, .apply-btn{
+  @apply btn bg-[rgba(126,144,254,1)] hover:bg-[#9873FF] border-0
+}
+
+/* Header Styles */
+
+.header{
+  @apply py-3 lg:px-0 -mb-[300px] lg:-mb-[72px]
+}
+.header-container{
+  @apply xl:w-[1280px] mx-auto flex flex-col gap-5 lg:gap-0 lg:flex-row justify-between lg:items-center z-10
+}
+
+.header-logo-area{
+  @apply flex justify-between z-50 px-5 lg:p-0
+}
+
+.header-logo{
+  @apply text-xl lg:text-3xl font-semibold
+}
+
+.header-nav-area{
+  @apply overflow-hidden
+}
+
+.header-nav{
+  @apply md:flex gap-12
+}
+
+.offcanvas-nav{
+  @apply flex md:hidden w-full flex-col items-center gap-2 relative left-0 bg-white py-4 duration-300 z-10
+}
+
+.offcanvas-nav .link-item{
+  @apply py-2
+}
+
+.header-btn-area{
+  @apply hidden md:block
+}
+
+.link-item{
+  color: #757575;
+  @apply text-base font-medium capitalize hover:text-[rgba(126,144,254,1)] duration-300
+}
+.active{
+  @apply text-[rgba(126,144,254,1)]
+}
+
+/* Home Styles */
+
+.hero{
+  @apply bg-[#e2f8ff] pt-32 lg:pt-40 px-5 lg:px-0
+}
+
+.hero-container{
+  @apply xl:w-[1280px] mx-auto flex flex-col lg:flex-row justify-between
+}
+
+.hero-container > *{
+  @apply w-full lg:w-1/2
+}
+
+.hero-content-area{
+  @apply pb-20
+}
+
+.hero-title{
+  line-height: 1.3em;
+  @apply text-[40px] lg:text-[80px] font-bold mb-5 pr-10 lg:pr-0
+}
+
+.hero-desc{
+  @apply lg:pr-20 text-[#757575;]
+}
+
+.hero-btn{
+  @apply mt-7
+}
+
+.hero-img-area{
+  @apply hidden lg:block
+}
+
+/* Category Section */
+
+.categories{
+  @apply py-20 pb-0 lg:py-24 px-5 lg:px-0
+}
+
+.category-container{
+  @apply xl:w-[1280px] mx-auto flex flex-col lg:flex-row justify-between gap-5
+}
+
+.category-card{
+  @apply bg-[#e2f8ff] rounded-xl p-8 w-full
+}
+
+.category-logo{
+  @apply w-[60px] p-2 bg-[rgba(126,144,254,.2)] rounded-lg mb-7
+}
+
+.category-title{
+  @apply text-[#474747] text-2xl font-bold mb-2
+}
+
+/* Jobs Section */
+
+.jobs{
+  @apply py-20 lg:py-24 px-5 lg:px-0 flex flex-col items-center justify-center
+}
+.jobs-container{
+  @apply xl:w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-2 justify-between gap-5 mb-12
+}
+
+.job-card{
+  @apply w-full p-6 lg:p-10 border border-gray-200 rounded-xl
+}
+.job-card-logo{
+  @apply lg:h-[50px] h-[60px] mb-5 flex justify-start items-center
+}
+.job-card-logo img{
+  @apply w-[100px]
+}
+
+.job-card-title{
+  @apply text-[#474747] text-2xl font-bold mb-2
+}
+
+.job-card .company-name{
+  @apply text-[#757575] text-xl font-medium capitalize
+}
+
+.job-type-area{
+  @apply flex gap-3 my-3
+}
+
+.job-type{
+  @apply py-1 px-4 border border-[rgba(126,144,254,1)] rounded-md mt-4
+}
+
+.job-card-simple-info{
+  @apply flex w-full flex-col lg:flex-row lg:justify-start gap-5 lg:gap-10 items-start lg:items-center my-7
+}
+
+.job-card-simple-info .location span, .job-card-simple-info .salary span{
+  @apply ml-2
+}
+
+.job-details-btn{
+  @apply py-2
+}
+
+.showAll-btn{
+  @apply px-10
+}
+
+/* Page Hero */
+
+.page-hero{
+  @apply py-32 lg:py-52 text-center bg-[#e2f8ff]
+}
+
+.page-hero-title{
+  @apply text-[#1A1919] text-3xl lg:text-4xl font-bold
+}
+
+/* Job Details */
+
+.job-details{
+  @apply py-20 lg:py-24 px-5 lg:px-0
+}
+
+.job-details-container{
+  @apply xl:w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-3 justify-between gap-8 mb-12
+}
+
+.details-left{
+  @apply lg:col-span-2
+}
+
+.job-description, .job-responsibilities, .educational-requirements{
+  @apply mb-8
+}
+
+.details-right-container{
+  @apply bg-[#e2f8ff] rounded-xl p-6
+}
+
+.job-information{
+  @apply mb-10
+}
+
+.job-information-title, .contact-information-title{
+  @apply text-[#1A1919] text-xl font-bold mb-4
+}
+
+hr{
+  @apply border-[#d3c4ff] mb-4
+}
+
+.details-right .salary span, .details-right .job-title span, .details-right .phone span, .details-right .email span, .details-right .address span{
+  @apply ml-2
+}
+
+.details-right .salary, .details-right .job-title, .details-right .phone, .details-right .email, .details-right .address{
+  @apply mb-4
+}
+
+.apply-btn{
+  @apply mt-5 w-full
+}
+
+/* Applied Jobs */
+
+.applied-jobs{
+    @apply py-20 lg:py-24 px-5 lg:px-0 lg:w-[1280px] mx-auto
+}
+
+.applied-jobs-container{
+  @apply xl:w-[1280px] flex flex-col mx-auto w-full gap-8 mb-12 p-0
+}
+
+.applied-job-card{
+  @apply w-full p-6 lg:p-8 border border-gray-200 rounded-xl grid grid-cols-1 lg:grid-cols-4 gap-8 justify-between items-center
+}
+
+.applied-job-card .job-card-simple-info{
+  @apply mb-0
+}
+
+.applied-job-card .job-card-logo{
+  @apply bg-slate-200 h-[200px] lg:h-full rounded-lg mb-0 justify-center
+}
+
+.applied-job-card .job-card-logo img{
+  @apply w-[180px]
+}
+
+.applied-job-card .job-card-info{
+  @apply lg:col-span-2
+}
+
+.applied-job-card .job-card-footer{
+  @apply flex lg:justify-end
+}
+
+/* Blog */
+
+.blog{
+  @apply py-20 pb-0 lg:py-24 px-5 lg:px-0
+}
+
+.blog-container{
+  @apply xl:w-[1280px] flex flex-col mx-auto w-full gap-8 mb-12 p-0 
+}
+
+.faq-container{
+  @apply flex flex-col gap-5
+}
+
+.faq-card{
+  @apply border border-gray-200 rounded-lg p-5
+}
